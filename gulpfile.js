@@ -78,7 +78,7 @@ const argv = yargs
   .argv;
 
 const config = {
-  libraryName: 'jumbotron',
+  libraryName: '@angular-material-extensions/jumbotron',
   unscopedLibraryName: 'jumbotron',
   allSrc: 'src/**/*',
   allTs: 'src/**/!(*.spec).ts',
@@ -521,7 +521,7 @@ gulp.task('serve:demo-ssr',['build:demo-ssr'], () => {
 
 gulp.task('build:demo-ssr', () => {
   return execDemoCmd(`build --preserve-symlinks --prod`, { cwd: `${config.demoDir}`})
-    .then(() => execDemoCmd(`run jumbotron-demo:server`, { cwd: `${config.demoDir}` }))
+    .then(() => execDemoCmd(`run @angular-material-extensions/jumbotron-demo:server`, { cwd: `${config.demoDir}` }))
     .then(() => execCmd('webpack', '--config webpack.server.config.js --progress --colors', { cwd: `${config.demoDir}` }, `/${config.demoDir}`))
     .catch(e => {
       fancyLog(acolors.red(`build:demo-ssr command failed. See below for errors.\n`));

@@ -4,7 +4,7 @@
     "authorName": "Anthony Nahas",
     "authorEmail": "anthony.na@hotmail.de",
     "githubUsername": "angular-material-extensions",
-    "githubRepoName": "jumbotron",
+    "githubRepoName": "@angular-material-extensions/jumbotron",
     "projectName": "jumbotron",
     "projectVersion": "0.0.1",
     "projectDescription": "Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user",

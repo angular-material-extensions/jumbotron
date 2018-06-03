@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "npm link jumbotron"
+    "postinstall": "npm link @angular-material-extensions/jumbotron"
   },
   "private": true,
   "dependencies": {
@@ -55,9 +55,12 @@
     "@nguniversal/express-engine": "^6.0.0",
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0"
   },
-    "jest": {
-      "preset": "jest-preset-angular",
-      "coverageReporters": [ "lcov", "text" ],
-      "setupTestFrameworkScriptFile": "<rootDir>/src/setupJest.ts"
-    }
+  "jest": {
+    "preset": "jest-preset-angular",
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupJest.ts"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "generator-ngx-library": {
+    "version": "6.0.0",
+    "authorName": "Anthony Nahas",
+    "authorEmail": "anthony.na@hotmail.de",
+    "githubUsername": "angular-material-extensions",
+    "githubRepoName": "jumborton",
+    "projectName": "jumborton",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user",
+    "projectKeywords": [
+      "angular",
+      "material",
+      "jumborton"
+    ],
+    "ngVersion": "6.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "additionalPackageFiles": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "mat-",
+    "testingFramework": "jest",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "config/karma.conf.js",
+      "config/webpack.test.js",
+      "config/karma-test-shim.js"
+    ]
+  }
+}

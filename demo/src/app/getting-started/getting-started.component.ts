@@ -12,7 +12,7 @@ export class GettingStartedComponent implements OnInit {
   constructor(private titleService:Title) { }
 
   ngOnInit() {
-    this.titleService.setTitle('Getting Started | jumborton');
+    this.titleService.setTitle('Getting Started | jumbotron');
   }
 
 }

@@ -78,8 +78,8 @@ const argv = yargs
   .argv;
 
 const config = {
-  libraryName: 'jumborton',
-  unscopedLibraryName: 'jumborton',
+  libraryName: 'jumbotron',
+  unscopedLibraryName: 'jumbotron',
   allSrc: 'src/**/*',
   allTs: 'src/**/!(*.spec).ts',
   allSass: 'src/**/*.+(scss|sass)',
@@ -322,7 +322,7 @@ gulp.task('npm-package', (cb) => {
   // copy the needed additional files in the 'dist' folder
   pump(
     [
-      gulp.src(['README.md', 'LICENSE', 'CHANGELOG.md', 
+      gulp.src(['README.md', 'LICENSE', 'CHANGELOG.md',
       `${config.buildDir}/lib-es5/**/*.d.ts`,
       `${config.buildDir}/lib-es5/**/*.metadata.json`]),
       gulpFile('package.json', JSON.stringify(targetPkgJson, null, 2)),
@@ -343,7 +343,7 @@ gulp.task('rollup-bundle', (cb) => {
       // the window object.
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals for more.
 
-      // Angular dependencies 
+      // Angular dependencies
       '@angular/core': 'ng.core',
       '@angular/common': 'ng.common',
 
@@ -372,7 +372,7 @@ gulp.task('rollup-bundle', (cb) => {
       // Add any other dependency or peer dependency of your library here
       // This is required for UMD bundle users.
       // See https://github.com/tinesoft/generator-ngx-library/TROUBLESHOUTING.md if trouble
-      
+
 
     };
     const rollupBaseConfig = {
@@ -389,7 +389,7 @@ gulp.task('rollup-bundle', (cb) => {
           include: ['node_modules/rxjs/**']
         }),
         rollupSourcemaps(),
-        rollupNodeResolve({ 
+        rollupNodeResolve({
           jsnext: true,
           module: true,
           jail: distFolder, // to use final 'package.json' from 'dist/'
@@ -512,7 +512,7 @@ gulp.task('serve:demo-hmr', () => {
 });
 
 gulp.task('build:demo', () => {
-  return execDemoCmd(`build --preserve-symlinks --prod --base-href /jumborton/ --deploy-url /jumborton/`, { cwd: `${config.demoDir}`});
+  return execDemoCmd(`build --preserve-symlinks --prod --base-href /jumbotron/ --deploy-url /jumbotron/`, { cwd: `${config.demoDir}`});
 });
 
 gulp.task('serve:demo-ssr',['build:demo-ssr'], () => {
@@ -521,7 +521,7 @@ gulp.task('serve:demo-ssr',['build:demo-ssr'], () => {
 
 gulp.task('build:demo-ssr', () => {
   return execDemoCmd(`build --preserve-symlinks --prod`, { cwd: `${config.demoDir}`})
-    .then(() => execDemoCmd(`run jumborton-demo:server`, { cwd: `${config.demoDir}` }))
+    .then(() => execDemoCmd(`run jumbotron-demo:server`, { cwd: `${config.demoDir}` }))
     .then(() => execCmd('webpack', '--config webpack.server.config.js --progress --colors', { cwd: `${config.demoDir}` }, `/${config.demoDir}`))
     .catch(e => {
       fancyLog(acolors.red(`build:demo-ssr command failed. See below for errors.\n`));

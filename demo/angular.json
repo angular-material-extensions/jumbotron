@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "jumborton-demo": {
+    "jumbotron-demo": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -50,12 +50,12 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "jumborton-demo:build",
+            "browserTarget": "jumbotron-demo:build",
             "hmrWarning": false
           },
           "configurations": {
             "production": {
-              "browserTarget": "jumborton-demo:build:production"
+              "browserTarget": "jumbotron-demo:build:production"
             },
             "hmr": {
               "hmr": true
@@ -65,7 +65,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jumborton-demo:build"
+            "browserTarget": "jumbotron-demo:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "jumborton-demo-e2e": {
+    "jumbotron-demo-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -115,7 +115,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "jumborton-demo:serve"
+            "devServerTarget": "jumbotron-demo:serve"
           }
         },
         "lint": {
@@ -130,5 +130,5 @@
       }
     }
   },
-  "defaultProject": "jumborton-demo"
+  "defaultProject": "jumbotron-demo"
 }

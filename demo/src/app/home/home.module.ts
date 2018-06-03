@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {  LibModule  } from 'jumborton';
+import {  LibModule  } from 'jumbotron';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';

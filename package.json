@@ -1,31 +1,31 @@
 {
-  "name": "jumborton",
+  "name": "jumbotron",
   "description": "Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user",
   "version": "0.0.1",
-  "homepage": "https://github.com/angular-material-extensions/jumborton",
+  "homepage": "https://github.com/angular-material-extensions/jumbotron",
   "author": {
     "name": "Anthony Nahas",
     "url": "https://github.com/angular-material-extensions"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/angular-material-extensions/jumborton.git"
+    "url": "git://github.com/angular-material-extensions/jumbotron.git"
   },
   "license": "MIT",
   "keywords": [
     "angular",
     "material",
-    "jumborton"
+    "jumbotron"
   ],
   "bugs": {
-    "url": "https://github.com/angular-material-extensions/jumborton/issues"
+    "url": "https://github.com/angular-material-extensions/jumbotron/issues"
   },
   "private": true,
   "scripts": {
     "start": "gulp build",
     "test": " gulp test",
     "demo": " gulp build:demo",
-    "check-travis": " travis-status --repo=angular-material-extensions/jumborton --branch=master --fail-pending || echo 'Not yet passing'"
+    "check-travis": " travis-status --repo=angular-material-extensions/jumbotron --branch=master --fail-pending || echo 'Not yet passing'"
   },
   "dependencies": {
     "@angular/core": "6.0.0",
@@ -68,7 +68,7 @@
     "gulp-hub": "0.8.0",
     "ansi-colors": "2.0.1",
     "fancy-log": "1.3.2",
-    "html-loader": "0.5.5",    
+    "html-loader": "0.5.5",
     "pump": "3.0.0",
     "rollup": "0.58.2",
     "rollup-plugin-uglify": "3.0.0",

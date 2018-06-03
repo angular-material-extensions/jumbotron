@@ -1,6 +1,6 @@
 import { JumbortonDemoPage } from './app.po';
 
-describe('jumborton-demo App', () => {
+describe('jumbotron-demo App', () => {
   let page: JumbortonDemoPage;
 
   beforeEach(() => {

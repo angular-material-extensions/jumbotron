@@ -14,8 +14,8 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "genDir": "../tmp/lib-gen-dir/",
-    "flatModuleOutFile": "jumborton.js",
-    "flatModuleId": "jumborton",
+    "flatModuleOutFile": "jumbotron.js",
+    "flatModuleId": "jumbotron",
     "annotateForClosureCompiler": true
   }
 }

@@ -1,26 +1,28 @@
 import { CommonModule } from '@angular/common';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 
-import { MatJumbortonComponent } from './component/mat-jumborton.component';
+import { MatJumbotronComponent } from './component/mat-jumbotron.component';
 import { LibService } from './service/lib.service';
 import {MatCardModule} from '@angular/material';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 // Export module's public API
-export { MatJumbortonComponent } from './component/mat-jumborton.component';
+export { MatJumbotronComponent } from './component/mat-jumbotron.component';
 export { LibService } from './service/lib.service';
 
 @NgModule({
   imports: [
     CommonModule,
+    FlexLayoutModule,
     MatCardModule,
   ],
-  exports: [MatJumbortonComponent],
-  declarations: [MatJumbortonComponent]
+  exports: [MatJumbotronComponent],
+  declarations: [MatJumbotronComponent]
 })
-export class MatJumbortonModule {
+export class MatJumbotronModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: MatJumbortonModule,
+      ngModule: MatJumbotronModule,
       providers: [LibService]
     };
   }

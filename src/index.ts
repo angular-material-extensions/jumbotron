@@ -1,1 +1,1 @@
-export * from './module/mat-jumborton.module';
+export * from './module/mat-jumbotron.module';

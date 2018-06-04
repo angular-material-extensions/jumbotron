@@ -1,5 +1,5 @@
 {
-  "name": "jumbotron",
+  "name": "@angular-material-extensions/jumbotron",
   "description": "Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user",
   "version": "0.0.1",
   "homepage": "https://github.com/angular-material-extensions/jumbotron",
@@ -31,12 +31,14 @@
     "@angular/cdk": "^6.2.0",
     "@angular/common": "6.0.3",
     "@angular/core": "6.0.3",
+    "@angular/flex-layout": "^6.0.0-beta.15",
     "@angular/material": "^6.2.0"
   },
   "devDependencies": {
     "@angular/animations": "6.0.3",
     "@angular/compiler": "6.0.3",
     "@angular/compiler-cli": "6.0.3",
+    "@angular/forms": "6.0.3",
     "@angular/platform-browser": "6.0.3",
     "@angular/platform-browser-dynamic": "6.0.3",
     "@angular/platform-server": "6.0.3",

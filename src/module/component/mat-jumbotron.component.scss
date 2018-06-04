@@ -1,0 +1,20 @@
+mat-card {
+
+  background: #e9ecef !important;
+
+  img {
+    object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 80%;
+  }
+
+  h1 {
+    font-weight: 400 !important;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+}

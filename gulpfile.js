@@ -646,7 +646,7 @@ gulp.task('npm-publish', ['build'], () => {
   return execExternalCmd('npm', `publish ${config.outputDir} --access public`)
 });
 
-// Perfom pre-release checks (no actual release)
+// Perform pre-release checks (no actual release)
 gulp.task('pre-release', cb => {
   readyToRelease();
   cb();

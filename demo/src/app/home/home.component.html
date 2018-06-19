@@ -21,7 +21,29 @@
   </div>
 </div>
 
-<div style="margin-top: 10rem">
-  <mat-jumbotron></mat-jumbotron>
-  <p>Happy ng-hacking!</p>
-</div>
+
+<mat-jumbotron>
+  <mat-jumbotron-content>
+    <h1 class="display-1" ngClass.xs="display-3 text-center" ngClass.sm="display-3">jumbotron</h1>
+    <p class="headline" ngClass.xs="text-center">Angular UI open source library built
+      with material design in order to illustrate a highlighted/important information for the user
+    </p>
+
+    <p class="text-center"> Scroll down to see it in action!</p>
+
+    <div fxLayout="row" fxLayout.xs="column"
+         fxLayoutGap.xs="2rem"
+         fxLayoutAlign="space-around center">
+      <a href="//www.google.com" mat-stroked-button color="primary">
+        <mat-icon>code</mat-icon>
+        Code on Github
+      </a>
+      <a href="//www.google.com" mat-stroked-button color="primary">
+        <mat-icon>note</mat-icon>
+        Documentation
+      </a>
+    </div>
+
+  </mat-jumbotron-content>
+</mat-jumbotron>
+

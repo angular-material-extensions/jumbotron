@@ -1,0 +1,15 @@
+<mat-card fxLayout="row" fxLayoutAlign="center center">
+
+  <mat-card-content fxLayout="row"
+                    fxLayout.xs="column"
+                    fxLayoutGap="2rem"
+                    fxLayoutAlign="center center">
+    <!--main image-->
+    <img mat-card-xl-image src="assets/logo.svg">
+
+    <div fxLayout="column" fxFlex="50">
+      <ng-container [ngTemplateOutlet]="jumbotronContent.content"></ng-container>
+    </div>
+  </mat-card-content>
+
+</mat-card>

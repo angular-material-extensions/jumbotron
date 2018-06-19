@@ -29,3 +29,33 @@
   </mat-jumbotron-content>
 </mat-jumbotron>
 
+
+<section class="home">
+  <div class="container">
+
+    <mat-card>
+      <mat-card-content>
+        <mat-tab-group>
+          <!--tab 1-->
+          <mat-tab>
+            <ng-template mat-tab-label>HTML</ng-template>
+            <pre><code highlight [code]="html"></code></pre>
+          </mat-tab>
+
+          <!--tab2 TS-->
+          <mat-tab>
+            <ng-template mat-tab-label>TS</ng-template>
+            <pre><code highlight [code]="ts"></code></pre>
+          </mat-tab>
+
+          <!--tab2 SCSS-->
+          <mat-tab>
+            <ng-template mat-tab-label>SCSS</ng-template>
+            <pre><code highlight [code]="scss"></code></pre>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</section>
+

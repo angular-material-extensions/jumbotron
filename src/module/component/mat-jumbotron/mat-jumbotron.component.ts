@@ -8,7 +8,7 @@ import {MatJumbotronContentComponent} from './content/mat-jumbotron-content.comp
   selector: 'mat-jumbotron',
   templateUrl: './mat-jumbotron.component.html',
   styleUrls: ['./mat-jumbotron.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class MatJumbotronComponent {
 
@@ -16,47 +16,9 @@ export class MatJumbotronComponent {
   jumbotronContent: MatJumbotronContentComponent;
 
   @Input()
-  title: string;
-
-  @Input()
-  description2: string;
-
-  @Input()
-  image: string;
-
-  @Input()
-  isFluid = true;
-
-  displayIdentifier: Observable<number>;
-
-  description = 'Angular UI open source library built with material design in order ' +
-    'to illustrate a highlighted/important information for the user';
+  imgURL: string;
 
   constructor() {
   }
 
-  // private initJumbotronObsMedia() {
-  //   const matrix = new Map([
-  //     ['xs', 1],
-  //     ['sm', 1],
-  //     ['md', 2],
-  //     ['lg', 3],
-  //     ['xl', 3]
-  //   ]);
-  //   let start = 0;
-  //   matrix.forEach((cols, mqAlias) => {
-  //     if (this.observableMedia.isActive(mqAlias)) {
-  //       start = cols;
-  //       console.log('start = ', start, ' cols = ', cols);
-  //     }
-  //   });
-  //   this.displayIdentifier = this.observableMedia
-  //     .asObservable()
-  //     .pipe(
-  //       map(change => {
-  //         console.log(change);
-  //         return matrix.get(change.mqAlias);
-  //       })
-  //       , startWith(start));
-  // }
 }

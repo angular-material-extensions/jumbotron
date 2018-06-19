@@ -1,23 +1,23 @@
 :host {
   display: block;
-}
 
-::ng-deep mat-card {
+  ::ng-deep mat-card {
 
-  background: #e9ecef !important;
+    background: #e9ecef !important;
 
-  img {
-    object-fit: cover; /*this makes de image in src fit to the size of specified below*/
-  }
+    img {
+      object-fit: cover; /*this makes de image in src fit to the size of specified below*/
+    }
 
-  h1 {
-    font-weight: 400 !important;
-  }
+    h1 {
+      font-weight: 400 !important;
+    }
 
-  p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
 
+    }
   }
 }

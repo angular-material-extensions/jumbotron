@@ -17,7 +17,7 @@
 
 <p align="center">
   <img alt="@angular-material-extensions/faq" style="text-align: center;"
-   src="https://raw.githubusercontent.com/angular-material-extensions/jumbotron/HEAD/assets/demo.gif">
+   src="https://raw.githubusercontent.com/angular-material-extensions/jumbotron/HEAD/assets/demo.png">
 </p>
 
 

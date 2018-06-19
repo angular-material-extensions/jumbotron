@@ -1,28 +1,4 @@
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 d-flex justify-content-center justify-content-md-end">
-        <img src="assets/logo.svg" alt="jumbotron logo" class="logo">
-      </div>
-      <div class="col-sm-8 text-center text-md-left">
-        <h1>jumbotron</h1>
-        <p>Angular UI open source library built with material design in order to illustrate a highlighted/important
-          information for the user</p>
-        <p>Scroll down to see it in action!</p>
-        <p class="buttons">
-          <a class="btn btn-outline-primary btn-lg" href="https://github.com/angular-material-extensions/jumbotron"
-             target="_blank"><i class="fa fa-github fa-lg"></i> Code on Github</a>
-          <a class="btn btn-outline-primary btn-lg" href="doc/index.html" target="_blank"><i
-            class="fa fa-book fa-lg"></i> Documentation</a>
-        </p>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-<mat-jumbotron>
+<mat-jumbotron imgURL="assets/logo.svg">
   <mat-jumbotron-content>
     <h1 class="display-1" ngClass.xs="display-3 text-center" ngClass.sm="display-3">jumbotron</h1>
     <p class="headline" ngClass.xs="text-center">Angular UI open source library built
@@ -32,13 +8,19 @@
     <p class="text-center"> Scroll down to see it in action!</p>
 
     <div fxLayout="row" fxLayout.xs="column"
-         fxLayoutGap.xs="2rem"
-         fxLayoutAlign="space-around center">
-      <a href="//www.google.com" mat-stroked-button color="primary">
+         fxLayoutGap.xs="1rem"
+         fxLayoutAlign="center center">
+      <a mat-stroked-button
+         color="primary"
+         target="_blank"
+         href="https://github.com/angular-material-extensions/jumbotron">
         <mat-icon>code</mat-icon>
         Code on Github
       </a>
-      <a href="//www.google.com" mat-stroked-button color="primary">
+      <a mat-stroked-button
+         color="primary"
+         target="_blank"
+         href="doc/index.html">
         <mat-icon>note</mat-icon>
         Documentation
       </a>

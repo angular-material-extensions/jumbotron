@@ -111,7 +111,6 @@ npm i -s material-design-icons
 
 ##  [Installation](https://angular-material-extensions.github.io/jumbotron/getting-started)
 
-## Installation
 Install above dependencies via *npm*. 
 
 Now install `@angular-material-extensions/jumbotron` via:
@@ -125,7 +124,7 @@ npm install --save @angular-material-extensions/jumbotron
 In your systemjs config file, `map` needs to tell the System loader where to look for `jumbotron`:
 ```js
 map: {
-  'jumbotron': 'node_modules/jumbotron/bundles/jumbotron.umd.js',
+  'jumbotron': 'node_modules/@angular-material-extensions/jumbotron/bundles/jumbotron.umd.js',
 }
 ```
 ---

@@ -1,7 +1,4 @@
 import {Component, ContentChild, Input, ViewEncapsulation} from '@angular/core';
-import {ObservableMedia} from '@angular/flex-layout';
-import {map, startWith} from 'rxjs/operators';
-import {Observable} from 'rxjs/internal/Observable';
 import {MatJumbotronContentComponent} from './content/mat-jumbotron-content.component';
 
 @Component({

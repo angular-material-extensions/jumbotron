@@ -4,18 +4,29 @@ import {DebugElement} from '@angular/core';
 
 import {MatJumbotronComponent} from './mat-jumbotron.component';
 import {MatCardModule} from '@angular/material';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
-describe('LibComponent', function () {
+describe('MatJumbotronComponent', function () {
   let de: DebugElement;
   let comp: MatJumbotronComponent;
   let fixture: ComponentFixture<MatJumbotronComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [MatCardModule],
+      imports: [FlexLayoutModule, MatCardModule],
       declarations: [MatJumbotronComponent]
     })
       .compileComponents();
+
+    window.matchMedia = window.matchMedia || function () {
+      return {
+        matches: false,
+        addListener: function () {
+        },
+        removeListener: function () {
+        }
+      };
+    };
   }));
 
   beforeEach(() => {

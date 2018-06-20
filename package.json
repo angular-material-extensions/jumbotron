@@ -1,7 +1,7 @@
 {
   "name": "@angular-material-extensions/jumbotron",
   "description": "Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/angular-material-extensions/jumbotron",
   "author": {
     "name": "Anthony Nahas",

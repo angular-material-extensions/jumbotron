@@ -114,9 +114,9 @@ npm i -s material-design-icons
 ## Installation
 Install above dependencies via *npm*. 
 
-Now install `jumbotron` via:
+Now install `@angular-material-extensions/jumbotron` via:
 ```shell
-npm install --save jumbotron
+npm install --save @angular-material-extensions/jumbotron
 ```
 
 ---
@@ -307,7 +307,7 @@ $ npm run lint
 
 <a name="other-angular-libraries"/>
 
-## Other Angular Libraries
+## Other Angular Material Extensions Libraries
 - [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
 - [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
 - [@angular-material-extensions/password-strength](https://github.com/angular-material-extensions/password-strength)

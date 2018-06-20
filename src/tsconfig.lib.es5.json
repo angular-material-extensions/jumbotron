@@ -14,7 +14,7 @@
     "skipTemplateCodegen": true,
     "genDir": "../tmp/lib-gen-dir/",
     "flatModuleOutFile": "jumbotron.js",
-    "flatModuleId": "jumbotron",
+    "flatModuleId": "@angular-material-extensions/jumbotron",
     "annotateForClosureCompiler": true
   }
 }

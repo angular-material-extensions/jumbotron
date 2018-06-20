@@ -1,5 +1,15 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/angular-material-extensions/jumbotron/compare/v1.0.0...v1.0.1) (2018-06-20)
+
+
+### Bug Fixes
+
+* **module:** changed the flatModuleID to [@angular-material-extensions](https://github.com/angular-material-extensions)/jumbotron ([7e38ca3](https://github.com/angular-material-extensions/jumbotron/commit/7e38ca3))
+
+
+
 <a name="1.0.0"></a>
-# 1.0.0 (2018-06-20)
+# [1.0.0](https://github.com/angular-material-extensions/jumbotron/compare/1a187fd...v1.0.0) (2018-06-20)
 
 
 ### Bug Fixes

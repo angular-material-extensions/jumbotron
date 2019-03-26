@@ -15,8 +15,8 @@ import {HighlightModule} from 'ngx-highlightjs';
     HighlightModule.forRoot({theme: 'vs2015'}),
     HomeRoutingModule,
     MatButtonModule,
-    MatCardModule,
     MatIconModule,
+    MatCardModule,
     MatTabsModule
   ],
   declarations: [HomeComponent],

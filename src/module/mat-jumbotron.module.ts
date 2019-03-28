@@ -20,10 +20,4 @@ export {MatJumbotronContentComponent} from './component/mat-jumbotron/content/ma
   declarations: [MatJumbotronComponent, MatJumbotronContentComponent]
 })
 export class MatJumbotronModule {
-  static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: MatJumbotronModule,
-      providers: []
-    };
-  }
 }

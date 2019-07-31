@@ -8,8 +8,7 @@ import {Component, OnInit, TemplateRef, ViewChild} from '@angular/core';
 export class MatJumbotronContentComponent implements OnInit {
 
   /** Template for page outlook content. */
-  @ViewChild(TemplateRef)
-  content: TemplateRef<any>;
+  @ViewChild(TemplateRef, {static: false}) content: TemplateRef<any>;
 
   constructor() {
   }

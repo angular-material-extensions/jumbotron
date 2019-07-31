@@ -9,8 +9,7 @@ import {MatJumbotronContentComponent} from './content/mat-jumbotron-content.comp
 })
 export class MatJumbotronComponent {
 
-  @ContentChild(MatJumbotronContentComponent)
-  jumbotronContent: MatJumbotronContentComponent;
+  @ContentChild(MatJumbotronContentComponent, {static: false}) jumbotronContent: MatJumbotronContentComponent;
 
   @Input()
   imgURL: string;

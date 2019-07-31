@@ -33,8 +33,8 @@ export function addPackageJsonDependencies(): Rule {
         version: loadPackageVersionGracefully(context) || 'latest',
         name: '@angular-material-extensions/jumbotron'
       },
-      {type: NodeDependencyType.Default, version: ngCoreVersionTag || '7.2.11', name: '@angular/animations'},
-      {type: NodeDependencyType.Default, version: ngCoreVersionTag || '7.2.11', name: '@angular/forms'},
+      {type: NodeDependencyType.Default, version: ngCoreVersionTag || '8.1.2', name: '@angular/animations'},
+      {type: NodeDependencyType.Default, version: ngCoreVersionTag || '8.1.2', name: '@angular/forms'},
     ];
 
     dependencies.forEach(dependency => {
@@ -78,6 +78,7 @@ export function getPackageVersionFromPackageJson(tree: Tree, name: string): stri
     return null;
   }
 
+  // tslint:disable-next-line:no-non-null-assertion
   const packageJson = JSON.parse(tree.read('package.json')!.toString('utf8'));
 
   if (packageJson.dependencies && packageJson.dependencies[name]) {

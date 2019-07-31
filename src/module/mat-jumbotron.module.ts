@@ -1,5 +1,5 @@
 import {CommonModule} from '@angular/common';
-import {NgModule, ModuleWithProviders} from '@angular/core';
+import {NgModule} from '@angular/core';
 
 import {MatCardModule} from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';

@@ -2,7 +2,7 @@
   <img height="256px" width="256px" style="text-align: center;" src="https://cdn.rawgit.com/angular-material-extensions/jumbotron/master/demo/src/assets/logo.svg">
 </p>
 
-# jumbotron - Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user - Angular 6 supported
+# jumbotron - Angular UI open source library built with material design in order to illustrate a highlighted/important information for the user - Angular 8 supported
 
 [![npm version](https://badge.fury.io/js/%40angular-material-extensions%2Fjumbotron.svg)](https://badge.fury.io/js/%40angular-material-extensions%2Fjumbotron)
 [![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://angular-material-extensions.github.io/jumbotron)
@@ -61,10 +61,10 @@ View all the directives and components in action at [https://angular-material-ex
 <a name="peerDependencies"/>
 
 ### Requirements (peer dependencies):
-- [angular flex-layout v6.0.0-beta.16](https://www.npmjs.com/package/@angular/flex-layout)
-- [angular material v6.3.0](https://www.npmjs.com/package/@angular/material)
-- [angular cdk v6.3.0](https://www.npmjs.com/package/@angular/cdk)
-- [angular animations v6.0.5](https://www.npmjs.com/package/@angular/animations)
+- [angular flex-layout v8.0.0-beta.26](https://www.npmjs.com/package/@angular/flex-layout)
+- [angular material v8.x](https://www.npmjs.com/package/@angular/material)
+- [angular cdk v8.x](https://www.npmjs.com/package/@angular/cdk)
+- [angular animations v8.x](https://www.npmjs.com/package/@angular/animations)
 
 ```bash
 npm i @angular/cdk @angular/material @angular/flex-layout @angular/animations 
@@ -308,11 +308,15 @@ $ npm run lint
 
 ## Other Angular Material Extensions Libraries
 - [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
-- [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
+- [ngx-linkifyjs](https://github.com/anthonynahas/ngx-linkifyjs)
+- [@angular-material-extensions/components](https://github.com/angular-material-extensions/components)
 - [@angular-material-extensions/password-strength](https://github.com/angular-material-extensions/password-strength)
 - [@angular-material-extensions/google-maps-autocomplete](https://github.com/angular-material-extensions/google-maps-autocomplete)
+- [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
+- [@angular-material-extensions/link-preview](https://github.com/angular-material-extensions/link-preview)
 - [@angular-material-extensions/faq](https://github.com/angular-material-extensions/faq)
 - [@angular-material-extensions/contacts](https://github.com/angular-material-extensions/contacts)
+- [angular-material-extensions/freelancer-theme](https://github.com/angular-material-extensions/freelancer-theme)
 - [@angular-material-extensions/combination-generator](https://github.com/angular-material-extensions/combination-generator)
 
 ---
